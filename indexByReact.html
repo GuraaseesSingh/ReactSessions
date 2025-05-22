@@ -13,14 +13,14 @@
     comes when react doesn't render and ye default root element of html mai likha hua code hai if we see other text refresh ke time pe 0.1 sec ke liye dekhega and net speed slow kardo ge toh jyada dekhega  but gets replaced if react gets rendered  -->
     <!-- React is just a library so if we create just div with id header so we want to use react just in headeror navbar so we can use that just there  -->
     </div>
-    
+    <!-- after installing react and react - dom no need for cdn links as it creates expensive call to unpkg to make react accessible  -->
     <!-- //cdn  -->
      <!-- react.development is the first file is the core REACT -->
-     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+     <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> -->
      <!-- react-dom.development is the second file is the REACT for displaying on websites-->
-     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+     <!-- <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
 
      <!-- React.createElement() is just a js object which becomes html understood by browser  -->
-     <script src="./App.js"></script>
+     <script type="module" src="./App.js" ></script>
 </body>
 </html>
